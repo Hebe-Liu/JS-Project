@@ -1,8 +1,8 @@
 /*
 * @Author: hebe
 * @Date:   2019-10-21 20:39:48
-* @Last Modified by:   hebe
-* @Last Modified time: 2019-10-25 14:37:56
+* @Last Modified by:   Hebe-Liu
+* @Last Modified time: 2019-10-27 19:47:46
 */
 let userScore = 0;
 let computerScore = 0;
@@ -78,4 +78,3 @@ function main(){
 }
 
 main();
-game();
