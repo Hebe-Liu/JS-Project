@@ -1,0 +1,88 @@
+/*
+* @Author: hebe
+* @Date:   2019-10-21 20:39:48
+* @Last Modified by:   hebe
+* @Last Modified time: 2019-10-25 14:37:29
+*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header > h1 {
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	font-family: 'PT Sans', sans-serif; 
+	background-color: white;
+	color: #5558C4;
+}
+
+.body-defined {
+	padding: 10px;
+	padding-bottom: 40px;
+	background-color: #5558C4;
+}
+.score-board {
+	border: 2px solid white;
+	border-radius: 5px;
+	position: relative;
+	width: 30%;
+	margin:  30px auto;
+	padding: 20px;
+	font-family: 'PT Sans', sans-serif; 
+	font-size: 17px;
+	text-align: center;
+	color: white;
+}
+#user-label {
+	position: absolute;
+	display: inline;
+	top: 10px;
+	left: 0;
+	width: 100px;
+	text-align: center;
+	
+}
+#comp-label {
+	position: absolute;
+	display: inline-block;
+	top: 10px;
+	right: 0;
+	width: 100px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif; 
+	font-size: 17px;
+	color: white;
+}
+
+.choices {
+ 	text-align: center;
+}
+
+.choice {
+	display: inline-block;
+	margin: 40px auto;
+}
+
+img {
+	max-width: 40%;
+	height: auto;
+}
+
+.choice > img:hover {	
+	cursor: pointer;
+}
+
+#footer{
+	padding-top: 50px
+}
+
+
