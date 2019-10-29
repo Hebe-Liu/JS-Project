@@ -1,0 +1,35 @@
+/*
+* @Author: Hebe-Liu
+* @Date:   2019-10-28 18:19:26
+* @Last Modified by:   Hebe-Liu
+* @Last Modified time: 2019-10-29 14:04:45
+*/
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+
+*{
+	font-family: 'Signika', sans-serif;; 
+}
+
+header > h2 {
+	margin-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #3429F5;
+	font-weight: bold;
+}
+
+form {
+	margin-bottom: 40px;
+}
+
+input {
+	width: 350px !important;
+}
+
+img{
+	width: 120px;
+	height: 120px;
+}
+p{
+	padding-left: 30px
+}
