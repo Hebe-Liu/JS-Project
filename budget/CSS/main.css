@@ -2,7 +2,7 @@
 * @Author: Hebe-Liu
 * @Date:   2019-10-28 18:19:26
 * @Last Modified by:   Hebe-Liu
-* @Last Modified time: 2019-10-29 14:04:45
+* @Last Modified time: 2019-11-02 17:59:12
 */
 @import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
 
@@ -30,6 +30,15 @@ img{
 	width: 120px;
 	height: 120px;
 }
-p{
-	padding-left: 30px
+p {
+	padding-left: 30px;
+}
+
+.budget-feedback, .expense-feedback {
+	display: none;
+}
+
+.showItem{
+	display: block;
+	color:red;
 }
