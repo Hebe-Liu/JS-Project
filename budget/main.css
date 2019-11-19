@@ -2,11 +2,11 @@
 * @Author: Hebe-Liu
 * @Date:   2019-10-28 18:19:26
 * @Last Modified by:   Hebe-Liu
-* @Last Modified time: 2019-11-02 17:59:12
+* @Last Modified time: 2019-11-19 15:04:43
 */
 @import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
 
-*{
+* {
 	font-family: 'Signika', sans-serif;; 
 }
 
@@ -26,19 +26,34 @@ input {
 	width: 350px !important;
 }
 
-img{
+img {
 	width: 120px;
 	height: 120px;
 }
+
 p {
 	padding-left: 30px;
 }
 
-.budget-feedback, .expense-feedback {
-	display: none;
+a {
+	color: black !important;
+	text-decoration: none !important;
+}
+
+.budget-feedback,
+.expense-feedback {
+  display: none;
 }
 
 .showItem{
 	display: block;
 	color:red;
+}
+
+.showRed {
+	color: red;
+}
+
+.showGreen {
+	color: green;
 }
